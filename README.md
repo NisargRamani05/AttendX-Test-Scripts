@@ -35,7 +35,9 @@ Run the attendance test:
 ```bash
 python attendance_test.py
 ```
-
+## Latest Update
+A test for an empty username has been added to login_test.py.
+This update demonstrates input validation testing.
 ## Version Control
 Git is used to track changes to the test scripts and README file.
 The repository can be shared through GitHub for collaboration.
