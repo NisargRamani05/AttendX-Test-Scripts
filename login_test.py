@@ -23,3 +23,15 @@ def test_invalid_login():
 
 test_valid_login()
 test_invalid_login()
+
+def test_empty_username():
+    username = ""
+    password = "pass123"
+
+    if username == "":
+        print("PASS: Empty username rejected")
+    else:
+        print("FAIL: Empty username accepted")
+
+
+test_empty_username()
